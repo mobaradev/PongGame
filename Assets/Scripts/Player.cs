@@ -16,12 +16,12 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            this.transform.position += Vector3.up * 10f * Time.deltaTime;
+            this.transform.position += Vector3.up * 15f * Time.deltaTime;
         }
         
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            this.transform.position += Vector3.down * 10f * Time.deltaTime;
+            this.transform.position += Vector3.down * 15f * Time.deltaTime;
         }
 
         if (this.transform.position.y > MaxY.y)
