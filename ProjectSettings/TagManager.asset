@@ -7,6 +7,7 @@ TagManager:
   - BorderRight
   - BorderLeft
   - Ball
+  - Obstacle
   layers:
   - Default
   - TransparentFX
